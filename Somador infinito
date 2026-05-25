@@ -1,0 +1,27 @@
+programa
+{
+    funcao inicio()
+    {
+        real numero
+        real soma = 0.0
+
+        escreva("=== Somador Infinito ===\n")
+        escreva("Digite números para somar. Digite um número negativo para parar.\n")
+
+        enquanto (verdadeiro)
+        {
+            escreva("Digite um número: ")
+            leia(numero)
+
+            se (numero < 0)
+            {
+                pare
+            }
+
+            soma = soma + numero
+            escreva("Soma parcial: ", soma, "\n")
+        }
+
+        escreva("\nSoma final: ", soma, "\n")
+    }
+}
