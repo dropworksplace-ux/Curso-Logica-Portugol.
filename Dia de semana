@@ -1,0 +1,14 @@
+programa
+{
+    funcao inicio()
+    {
+        cadeia resposta
+
+        faca
+        {
+            escreva("Hoje é dia de semana? ")
+            leia(resposta)
+        }
+        enquanto (resposta != "S")
+    }
+}
