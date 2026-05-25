@@ -1,0 +1,18 @@
+programa
+{
+    funcao inicio()
+    {
+        cadeia nome
+        cadeia telefone
+
+        para (inteiro i = 1; i <= 10; i++)
+        {
+            escreva("Digite o nome do aluno " + i + ": ")
+            leia(nome)
+            escreva("Digite o telefone do aluno " + i + ": ")
+            leia(telefone)
+        }
+
+        escreva("alunos cadastrados com sucesso.")
+    }
+}
